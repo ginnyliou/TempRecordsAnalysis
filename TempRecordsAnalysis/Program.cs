@@ -18,7 +18,7 @@ namespace TempRecordsAnalysis
                     new TempRecordLookback()
                     {
                         TargetRecord = r,
-                        PreviousRecords = allRecords.Skip(i).Take(10).ToList()
+                        PreviousRecords = allRecords.Skip(i + 1).Take(10).ToList()
                     }
                 )
                 .OrderByDescending(l => l.TargetRecord.RecTime)
