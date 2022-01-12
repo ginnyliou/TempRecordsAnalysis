@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempRecordsAnalysis", "TempRecordsAnalysis\TempRecordsAnalysis.csproj", "{4E9A523D-5282-4D19-833B-26BE1495645C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensorFlowDotNetWrapper", "TensorFlowDotNetWrapper\TensorFlowDotNetWrapper.csproj", "{FFB4250E-3849-4FAC-A0BE-2EA379E712F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E9A523D-5282-4D19-833B-26BE1495645C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9A523D-5282-4D19-833B-26BE1495645C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9A523D-5282-4D19-833B-26BE1495645C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9A523D-5282-4D19-833B-26BE1495645C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB4250E-3849-4FAC-A0BE-2EA379E712F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB4250E-3849-4FAC-A0BE-2EA379E712F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB4250E-3849-4FAC-A0BE-2EA379E712F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB4250E-3849-4FAC-A0BE-2EA379E712F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {304D4E98-31C3-4666-9D69-27B6A97C3C9D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SciSharp.TensorFlow.Redist" Version="2.7.0" />
+    <PackageReference Include="TensorFlow.Keras" Version="0.6.4" />
+    <PackageReference Include="TensorFlow.NET" Version="0.60.4" />
+  </ItemGroup>
+
+</Project>
